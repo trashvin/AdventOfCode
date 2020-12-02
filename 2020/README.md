@@ -7,6 +7,10 @@ To save your vacation, you need to get all fifty stars by December 25th.
 
 Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
 
+## Daily Stories
+[Day 01](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day01.md) | 
+[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day02.md)
+
 ## Progress
 
 | Day  | Part One | Part Two | 
@@ -37,8 +41,6 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | [Day 24: TBD]()| | |
 | [Day 25: TBD]()| | |
 
-## Daily Stories
-[Day 01](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day01.md) | 
-[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day02.md)
+
 
 layout based on the repo of @adriennetacke
