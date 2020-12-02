@@ -37,4 +37,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | [Day 24: TBD]()| | |
 | [Day 25: TBD]()| | |
 
+## Daily Stories
+[Day 01](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day01.md) | 
+[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day02.md)
+
 layout based on the repo of @adriennetacke
