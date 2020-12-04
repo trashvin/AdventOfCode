@@ -9,7 +9,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ## Daily Stories
 [Day 01](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day01.md) | 
-[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day02.md)
+[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day02.md) |
+[Day 03](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day03.md)
 
 ## Progress
 
@@ -17,7 +18,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 |---|:---:|:---:|
 | ✔ [Day 1: Report Repair](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day01)| 🌟 | 🌟 |
 | ✔ [Day 2: Password Philosophy](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day02)| 🌟 | 🌟 |
-| [Day 3: TBD]()| | |
+| ✔ [Day 3: Toboggan Trajectory](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day03)| 🌟 | 🌟 |
 | [Day 4: TBD]()| | |
 | [Day 5: TBD]()| | |
 | [Day 6: TBD]()| | |
