@@ -13,6 +13,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 [Day 03](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day03.md) |
 [Day 04](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day04.md) |
 [Day 05](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day05.md) |
+[Day 06](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day06.md) |
 
 ## Progress
 
@@ -21,9 +22,9 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 1: Report Repair](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day01)| 🌟 | 🌟 |
 | ✔ [Day 2: Password Philosophy](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day02)| 🌟 | 🌟 |
 | ✔ [Day 3: Toboggan Trajectory](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day03)| 🌟 | 🌟 |
-| ✔ [Day 4: Passport Processing](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day03)| 🌟 | 🌟 |
-| ✔ [Day 5: Passport Processing](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day03)| 🌟 | 🌟 |
-| [Day 6: TBD]()| | |
+| ✔ [Day 4: Passport Processing](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day04)| 🌟 | 🌟 |
+| ✔ [Day 5: Passport Processing](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day05)| 🌟 | 🌟 |
+| ✔ [Day 6: Custom Customs](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day06)| 🌟 | 🌟 |
 | [Day 7: TBD]()| | |
 | [Day 8: TBD]()| | |
 | [Day 9: TBD]()| | |
