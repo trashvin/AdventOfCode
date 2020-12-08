@@ -27,7 +27,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 5: Passport Processing](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day05)| 🌟 | 🌟 |
 | ✔ [Day 6: Custom Customs](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day06)| 🌟 | 🌟 |
 | ✔ [Day 7: Handy Haversacks](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day07)| 🌟 | - |
-| - [Day 8: Handheld Halting](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day07)| - | - |
+| ✔ [Day 8: Handheld Halting](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day07)| 🌟 | - |
 | [Day 9: TBD]()| | |
 | [Day 10: TBD]()| | |
 | [Day 11: TBD]()| | |
