@@ -16,6 +16,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 [Day 06](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day06.md) |
 [Day 07](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day07.md) |
 [Day 08](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day08.md) |
+[Day 09](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day09.md) |
 
 ## Progress
 
@@ -28,8 +29,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 5: Passport Processing](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day05)| 🌟 | 🌟 |
 | ✔ [Day 6: Custom Customs](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day06)| 🌟 | 🌟 |
 | ✔ [Day 7: Handy Haversacks](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day07)| 🌟 | - |
-| ✔ [Day 8: Handheld Halting](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day07)| 🌟 | 🌟 |
-| [Day 9: TBD]()| | |
+| ✔ [Day 8: Handheld Halting](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day08)| 🌟 | 🌟 |
+| ✔ [Day 9: Encoding Error](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day09)| 🌟 | 🌟 |
 | [Day 10: TBD]()| | |
 | [Day 11: TBD]()| | |
 | [Day 12: TBD]()| | |

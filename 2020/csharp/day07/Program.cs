@@ -103,13 +103,13 @@ namespace day07
         static long GetCountBag(Dictionary<string,int> rules, long sum)
         {
             long total = sum;
-            long innerTotal = 0;
+            //long innerTotal = 0;
             foreach(KeyValuePair<string,int> rule in rules)
             {     
                 if(string.Compare(rule.Key,"no other bags") !=0)
                 {
                     long prevCounts = GetCountBag(regulations[rule.Key], total);
-                    total = total + rule.Value*prevCounts
+                    total = total + rule.Value*prevCounts;
 
 
                     // innerTotal = rule.Value;
