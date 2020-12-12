@@ -17,19 +17,17 @@ namespace day11
         {
             List<string> rowOfSeats = new List<string>();
 
-            //get the numbers
             foreach(string rowSeat in File.ReadLines("input.txt"))
             {
                 rowOfSeats.Add(rowSeat);
             }
 
-            //sanity check
-            //Console.WriteLine(rowOfSeats[rowOfSeats.Count-1]);
+            List<string> rowOfSeats2 = new List<string>();
+            rowOfSeats2.AddRange(rowOfSeats);
 
-            //PrintList(rowOfSeats);
             numberOfCols = rowOfSeats[0].Length;
-            // long result1 = SolvePart1(rowOfSeats);
-            // Console.WriteLine($"Part1 result = {result1}");
+            long result1 = SolvePart1(rowOfSeats);
+            Console.WriteLine($"Part1 result = {result1}");
 
             long result2 = SolvePart2(rowOfSeats);
             Console.WriteLine($"Part2 result = {result2}");
@@ -64,8 +62,6 @@ namespace day11
                                 movements++;
 
                             }
-                            //PrintList(origRowOfSeats);
-                            //Console.ReadLine();
                         }
                         else if(rowSeat[i] == OCCUPIED)
                         {
@@ -93,9 +89,7 @@ namespace day11
             {
                 noOfOccupied += row.Count(x => x == OCCUPIED);
             }
-
-            //PrintList(newRowOfSeats);
-            return noOfOccupied;
+             return noOfOccupied;
         }
 
         static int SolvePart2(List<string> rowOfSeats)
@@ -126,8 +120,6 @@ namespace day11
                                 movements++;
 
                             }
-                            //PrintList(origRowOfSeats);
-                            //Console.ReadLine();
                         }
                         else if(rowSeat[i] == OCCUPIED)
                         {
@@ -145,10 +137,7 @@ namespace day11
                             origRowOfSeats[currentRow] = new string(temp);
                         }
                     }
-                    //Console.WriteLine("3333  " + new string(temp) + "   3333");
                     currentRow ++;
-                    //Console.ReadKey();
-               
                 }
                 rowOfSeats.Clear();
                 rowOfSeats.AddRange(origRowOfSeats);
@@ -160,8 +149,6 @@ namespace day11
                 {
                     Console.WriteLine(movements);
                 }
-                // PrintList(rowOfSeats);
-                // Console.ReadKey();
             }
             
             foreach(string row in rowOfSeats)
@@ -229,8 +216,6 @@ namespace day11
             int row=0;
 
             //check horizontal back
-            
-
             col = currentCol-1;
             row = currentRow;
             while(col>=0)

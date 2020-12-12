@@ -17,6 +17,10 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 [Day 07](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day07.md) |
 [Day 08](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day08.md) |
 [Day 09](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day09.md) |
+[Day 10](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day10.md) |
+[Day 11](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day11.md) |
+[Day 12](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day12.md) |
+
 
 ## Progress
 
@@ -26,13 +30,13 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 2: Password Philosophy](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day02)| 🌟 | 🌟 |
 | ✔ [Day 3: Toboggan Trajectory](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day03)| 🌟 | 🌟 |
 | ✔ [Day 4: Passport Processing](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day04)| 🌟 | 🌟 |
-| ✔ [Day 5: Passport Processing](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day05)| 🌟 | 🌟 |
+| ✔ [Day 5: Binary Boarding](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day05)| 🌟 | 🌟 |
 | ✔ [Day 6: Custom Customs](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day06)| 🌟 | 🌟 |
 | ✔ [Day 7: Handy Haversacks](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day07)| 🌟 | - |
 | ✔ [Day 8: Handheld Halting](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day08)| 🌟 | 🌟 |
 | ✔ [Day 9: Encoding Error](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day09)| 🌟 | 🌟 |
-| [Day 10: TBD]()| | |
-| [Day 11: TBD]()| | |
+| ✔ [Day 10: Adapter Array](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day10)| 🌟 | - |
+| ✔ [Day 11: Seating System ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day11)| 🌟 | 🌟 |
 | [Day 12: TBD]()| | |
 | [Day 13: TBD]()| | |
 | [Day 14: TBD]()| | |
