@@ -12,7 +12,7 @@ namespace day11
         const char EMPTY = 'L';
         const char OCCUPIED = '#';
         const char FLOOR = '.';
-        static int ROW_COLS = 10;
+        static int numberOfCols = 10;
         static void Main(string[] args)
         {
             List<string> rowOfSeats = new List<string>();
@@ -27,12 +27,12 @@ namespace day11
             //Console.WriteLine(rowOfSeats[rowOfSeats.Count-1]);
 
             //PrintList(rowOfSeats);
-            ROW_COLS = rowOfSeats[0].Length;
-            long result1 = SolvePart1(rowOfSeats);
-            Console.WriteLine($"Part1 result = {result1}");
+            numberOfCols = rowOfSeats[0].Length;
+            // long result1 = SolvePart1(rowOfSeats);
+            // Console.WriteLine($"Part1 result = {result1}");
 
-            // long result2 = SolvePart2(adapters);
-            // Console.WriteLine($"Part2 result = {result2}");
+            long result2 = SolvePart2(rowOfSeats);
+            Console.WriteLine($"Part2 result = {result2}");
         }
 
         static int SolvePart1(List<string> rowOfSeats)
@@ -50,7 +50,6 @@ namespace day11
                 int movements =0;
                 foreach(string rowSeat in rowOfSeats)
                 {
-                    //Console.WriteLine(rowSeat);
                     StringBuilder newRow = new StringBuilder();
                     char[] temp = rowSeat.ToArray();
                     for(int i=0; i<rowSeat.Length; i++)
@@ -58,7 +57,7 @@ namespace day11
                         
                         if(rowSeat[i] == EMPTY)
                         {
-                            if(!HasAdjacent(rowOfSeats,currentRow,i,true))
+                            if(!HasAdjacent1(rowOfSeats,currentRow,i,true))
                             {
                                 temp[i] = OCCUPIED;
                                 origRowOfSeats[currentRow] = new string(temp);
@@ -70,7 +69,7 @@ namespace day11
                         }
                         else if(rowSeat[i] == OCCUPIED)
                         {
-                            if(HasAdjacent(rowOfSeats,currentRow,i,false))
+                            if(HasAdjacent1(rowOfSeats,currentRow,i,false))
                             {
                                 temp[i] = EMPTY;
                                 origRowOfSeats[currentRow] = new string(temp);
@@ -82,20 +81,12 @@ namespace day11
                             temp[i] = rowSeat[i];
                             origRowOfSeats[currentRow] = new string(temp);
                         }
-                        //Console.ReadLine();
                     }
-                    //Console.WriteLine("777" + newRow.ToString());
-                    //origRowOfSeats[currentRow]=newRow.ToString();
-                    
                     currentRow ++;
                 }
-                PrintList(origRowOfSeats);
                 rowOfSeats.Clear();
                 rowOfSeats.AddRange(origRowOfSeats);
-                if (movements == 0)
-                {
-                    break;
-                }
+                if (movements == 0) break;
             }
             
             foreach(string row in rowOfSeats)
@@ -107,7 +98,83 @@ namespace day11
             return noOfOccupied;
         }
 
-        static bool HasAdjacent(List<string> rowOfSeats, int currentRow, int currentCol, bool isEmpty)
+        static int SolvePart2(List<string> rowOfSeats)
+        {
+            int noOfOccupied = 0;
+            bool withMovements = true;
+            List<string> origRowOfSeats = new List<string>();
+            origRowOfSeats.AddRange(rowOfSeats);
+
+            int currentRow = 0;
+            while(withMovements)
+            {
+                currentRow = 0;
+                int movements =0;
+                foreach(string rowSeat in rowOfSeats)
+                {
+                    StringBuilder newRow = new StringBuilder();
+                    char[] temp = rowSeat.ToArray();
+                    for(int i=0; i<rowSeat.Length; i++)
+                    {
+                        
+                        if(rowSeat[i] == EMPTY)
+                        {
+                            if(!IsOccupied(rowOfSeats,currentRow,i,true))
+                            {
+                                temp[i] = OCCUPIED;
+                                origRowOfSeats[currentRow] = new string(temp);
+                                movements++;
+
+                            }
+                            //PrintList(origRowOfSeats);
+                            //Console.ReadLine();
+                        }
+                        else if(rowSeat[i] == OCCUPIED)
+                        {
+                            if(IsOccupied(rowOfSeats,currentRow,i,false))
+                            {
+                                temp[i] = EMPTY;
+                                origRowOfSeats[currentRow] = new string(temp);
+                                
+                                movements++;
+                            }
+                        }
+                        else
+                        {
+                            temp[i] = rowSeat[i];
+                            origRowOfSeats[currentRow] = new string(temp);
+                        }
+                    }
+                    //Console.WriteLine("3333  " + new string(temp) + "   3333");
+                    currentRow ++;
+                    //Console.ReadKey();
+               
+                }
+                rowOfSeats.Clear();
+                rowOfSeats.AddRange(origRowOfSeats);
+                if (movements == 0) 
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine(movements);
+                }
+                // PrintList(rowOfSeats);
+                // Console.ReadKey();
+            }
+            
+            foreach(string row in rowOfSeats)
+            {
+                noOfOccupied += row.Count(x => x == OCCUPIED);
+            }
+
+            //PrintList(newRowOfSeats);
+            return noOfOccupied;
+        }
+
+
+        static bool HasAdjacent1(List<string> rowOfSeats, int currentRow, int currentCol, bool isEmpty)
         {
             bool result = false;
             int empty = 0;
@@ -118,7 +185,7 @@ namespace day11
                 {
                     if(row>=0 && row<rowOfSeats.Count)
                     {
-                        if(col>=0 && col<ROW_COLS)
+                        if(col>=0 && col<numberOfCols)
                         {
                             if(row==currentRow && col==currentCol)
                             {
@@ -152,7 +219,173 @@ namespace day11
           
             return result;
         }
-        //static 
+
+        static bool IsOccupied(List<string> rowOfSeats, int currentRow, int currentCol, bool isEmpty)
+        {
+            bool result = false;
+            int occupied = 0;
+
+            int col=0;
+            int row=0;
+
+            //check horizontal back
+            
+
+            col = currentCol-1;
+            row = currentRow;
+            while(col>=0)
+            {
+                if(rowOfSeats[row][col]==OCCUPIED)
+                {
+                    occupied++;
+                    break;
+                } 
+                else if(rowOfSeats[row][col]==EMPTY)
+                {
+                    break;
+                }
+                col--;
+            }
+
+            //check horizontal foraward
+            col = currentCol+1;
+            row = currentRow;
+            while(col< numberOfCols)
+            {
+                if(rowOfSeats[row][col]==OCCUPIED)
+                {
+                    occupied++;
+                    break;
+                }
+                 else if(rowOfSeats[row][col]==EMPTY)
+                {
+                    break;
+                }
+                col++;
+            }
+
+            //check upward
+            col = currentCol;
+            row = currentRow -1;
+            while(row>=0)
+            {
+                if(rowOfSeats[row][col]==OCCUPIED)
+                {
+                    occupied++;
+                    break;
+                }
+                 else if(rowOfSeats[row][col]==EMPTY)
+                {
+                    break;
+                }
+                row--;
+            }
+
+            //check downward
+            col = currentCol;
+            row = currentRow +1;
+            while(row< rowOfSeats.Count)
+            {
+                if(rowOfSeats[row][col]==OCCUPIED)
+                {
+                    occupied++;
+                    break;
+                }
+                 else if(rowOfSeats[row][col]==EMPTY)
+                {
+                    break;
+                }
+                row++;
+            }
+
+            //check nw
+            col = currentCol -1;
+            row = currentRow -1;
+            while(col>=0 && row>=0)
+            {
+                if(rowOfSeats[row][col]==OCCUPIED)
+                {
+                    occupied++;
+                    break;
+                }
+                 else if(rowOfSeats[row][col]==EMPTY)
+                {
+                    break;
+                }
+                row--;
+                col--;
+            }
+
+            //check sw
+            col = currentCol -1;
+            row = currentRow +1;
+            while(col>=0 && row<rowOfSeats.Count)
+            {
+                if(rowOfSeats[row][col]==OCCUPIED)
+                {
+                    occupied++;
+                    break;
+                }
+                 else if(rowOfSeats[row][col]==EMPTY)
+                {
+                    break;
+                }
+                row++;
+                col--;
+            }
+
+            //check ne
+            col = currentCol +1;
+            row = currentRow -1;
+            while(col<numberOfCols && row>=0)
+            {
+                if(rowOfSeats[row][col]==OCCUPIED)
+                {
+                    occupied++;
+                    break;
+                }
+                 else if(rowOfSeats[row][col]==EMPTY)
+                {
+                    break;
+                }
+                row--;
+                col++;
+            }
+
+            //check se
+            col = currentCol +1;
+            row = currentRow +1;
+            while(col<numberOfCols && row<rowOfSeats.Count)
+            {
+                if(rowOfSeats[row][col]==OCCUPIED)
+                {
+                    occupied++;
+                    break;
+                }
+                 else if(rowOfSeats[row][col]==EMPTY)
+                {
+                    break;
+                }
+                row++;
+                col++;
+            }
+            //Console.WriteLine($"occs = {occupied}");
+
+            if (isEmpty)
+            {
+                if (occupied ==0) result = false;
+                else result = true;
+            }
+            else
+            {
+                if(occupied>=5) result = true;
+                else result = false;
+            }
+            
+          
+            return result;
+        }
+         
         static void PrintList(List<string> seats)
         {
             Console.WriteLine("*********************");
