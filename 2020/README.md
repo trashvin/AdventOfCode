@@ -23,6 +23,13 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 [Day 13](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day13.md) |
 [Day 14](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day14.md) |
 [Day 15](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day15.md) |
+[Day 16](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day16.md) |
+[Day 17](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day17.md) |
+[Day 18](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day18.md) |
+[Day 19](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day19.md) |
+[Day 20](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day20.md) |
+[Day 21](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day21.md) |
+
 
 
 ## Progress
@@ -42,14 +49,14 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 11: Seating System ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day11)| 🌟 | 🌟 |
 | ✔ [Day 12: Rain Risk ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day12)| 🌟 | - |
 | [Day 13: Shuttle Search ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day13)| - | - |
-| ✔ [Day 14: Docking Data ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day14)| 🌟 | - |
+| ✔ [Day 14: Docking Data ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day14)| 🌟 | 🌟 |
 | [Day 15: Rambunctious Recitation ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day15)| - | - |
-| [Day 16: TBD]()| | |
-| [Day 17: TBD]()| | |
-| [Day 18: TBD]()| | |
-| [Day 19: TBD]()| | |
-| [Day 20: TBD]()| | |
-| [Day 21: TBD]()| | |
+| [Day 16: Ticket Translation ]()| | |
+| [Day 17: Conway Cubes]()| | |
+| [Day 18: Operation Order]()| | |
+| [Day 19: Monster Messages]()| | |
+| [Day 20: Jurassic Jigsaw ]()| | |
+| [Day 21: Allergen Assessment ]()| | |
 | [Day 22: TBD]()| | |
 | [Day 23: TBD]()| | |
 | [Day 24: TBD]()| | |
