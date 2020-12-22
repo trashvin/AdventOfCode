@@ -13,7 +13,7 @@ Otherwise, the number had been spoken before; the current player announces how m
 So, after the starting numbers, each turn results in that player speaking aloud either 0 (if the last number is new) or an age (if the last number is a repeat).
 
 For example, suppose the starting numbers are 0,3,6:
-
+```
 Turn 1: The 1st number spoken is a starting number, 0.
 Turn 2: The 2nd number spoken is a starting number, 3.
 Turn 3: The 3rd number spoken is a starting number, 6.
@@ -24,12 +24,13 @@ Turn 7: Since 3 was just spoken twice in a row, and the last two turns are 1 tur
 Turn 8: Since 1 is new, the 8th number spoken is 0.
 Turn 9: 0 was last spoken on turns 8 and 4, so the 9th number spoken is the difference between them, 4.
 Turn 10: 4 is new, so the 10th number spoken is 0.
+```
 (The game ends when the Elves get sick of playing or dinner is ready, whichever comes first.)
 
 Their question for you is: what will be the 2020th number spoken? In the example above, the 2020th number spoken will be 436.
 
 Here are a few more examples:
-
+```
 Given the starting numbers 1,3,2, the 2020th number spoken is 1.
 Given the starting numbers 2,1,3, the 2020th number spoken is 10.
 Given the starting numbers 1,2,3, the 2020th number spoken is 27.
@@ -37,5 +38,19 @@ Given the starting numbers 2,3,1, the 2020th number spoken is 78.
 Given the starting numbers 3,2,1, the 2020th number spoken is 438.
 Given the starting numbers 3,1,2, the 2020th number spoken is 1836.
 Given your starting numbers, what will be the 2020th number spoken?
-
+```
 Your puzzle input is 15,5,1,4,7,0.
+
+## Part 2
+
+Impressed, the Elves issue you a challenge: determine the 30000000th number spoken. For example, given the same starting numbers as above:
+```
+Given 0,3,6, the 30000000th number spoken is 175594.
+Given 1,3,2, the 30000000th number spoken is 2578.
+Given 2,1,3, the 30000000th number spoken is 3544142.
+Given 1,2,3, the 30000000th number spoken is 261214.
+Given 2,3,1, the 30000000th number spoken is 6895259.
+Given 3,2,1, the 30000000th number spoken is 18.
+Given 3,1,2, the 30000000th number spoken is 362.
+```
+Given your starting numbers, what will be the 30000000th number spoken?
