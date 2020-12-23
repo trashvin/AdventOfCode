@@ -4,6 +4,10 @@ title: report repair
 */
 using System;
 using System.IO;
+using helper;
+{
+    
+}
 
 namespace day01
 {
@@ -58,7 +62,8 @@ namespace day01
 
             }
             Console.WriteLine($"Number 1 : {number1} ; Number 2 : {number2} ; Number 3 : {number3}" );
-            Console.WriteLine($"Part2 Result ={result}");
+            //Console.WriteLine($"Part2 Result ={result}");
+            Library.WriteResult(2,result);
 
 
         }
@@ -92,7 +97,8 @@ namespace day01
 
             }
             Console.WriteLine($"Number 1 : {number1} ; Number 2 : {number2}" );
-            Console.WriteLine($"Part1 Result ={result}");
+            Library.WriteResult(1,result);
+            //Console.WriteLine($"Part1 Result ={result}");
         }
     }
 }
