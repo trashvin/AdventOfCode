@@ -49,8 +49,8 @@ namespace day14
             program = new DockProgram(mask, memList);
             programs.Add(program);
 
-            //long reasult1 = SolvePart1(programs);
-            //Console.WriteLine($"Part1 result = {reasult1}");
+            long reasult1 = SolvePart1(programs);
+            Console.WriteLine($"Part1 result = {reasult1}");
 
             long reasult2 = SolvePart2(programs);
             Console.WriteLine($"Part2 result = {reasult2}");
