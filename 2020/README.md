@@ -51,9 +51,9 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | [Day 13: Shuttle Search ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day13)| - | - |
 | ✔ [Day 14: Docking Data ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day14)| 🌟 | 🌟 |
 | ✔ [Day 15: Rambunctious Recitation ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day15)| 🌟 | 🌟 |
-| [Day 16: Ticket Translation ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day16)| 🌟 | |
-| [Day 17: Conway Cubes]()| | |
-| [Day 18: Operation Order](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day18)| 🌟 | |
+| ✔ [Day 16: Ticket Translation ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day16)| 🌟 | - |
+| [Day 17: Conway Cubes]()| - | - |
+| ✔ [Day 18: Operation Order](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day18)| 🌟 | - |
 | [Day 19: Monster Messages]()| | |
 | [Day 20: Jurassic Jigsaw ]()| | |
 | [Day 21: Allergen Assessment ]()| | |
