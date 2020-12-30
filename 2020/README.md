@@ -8,27 +8,27 @@ To save your vacation, you need to get all fifty stars by December 25th.
 Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
 
 ## Daily Stories
-[Day 01](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day01.md) | 
-[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day02.md) |
-[Day 03](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day03.md) |
-[Day 04](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day04.md) |
-[Day 05](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day05.md) |
-[Day 06](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day06.md) |
-[Day 07](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day07.md) |
-[Day 08](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day08.md) |
-[Day 09](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day09.md) |
-[Day 10](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day10.md) |
-[Day 11](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day11.md) |
-[Day 12](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day12.md) |
-[Day 13](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day13.md) |
-[Day 14](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day14.md) |
-[Day 15](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day15.md) |
-[Day 16](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day16.md) |
-[Day 17](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day17.md) |
-[Day 18](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day18.md) |
-[Day 19](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day19.md) |
-[Day 20](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day20.md) |
-[Day 21](https://github.com/trashvin/adventOfCode/blob/main/2020/Story_Day21.md) |
+[Day 01](https://github.com/trashvin/adventOfCode/blob/main/2020/day01/Story_Day01.md) | 
+[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2020/day02/Story_Day02.md) |
+[Day 03](https://github.com/trashvin/adventOfCode/blob/main/2020/day03/Story_Day03.md) |
+[Day 04](https://github.com/trashvin/adventOfCode/blob/main/2020/dao04/Story_Day04.md) |
+[Day 05](https://github.com/trashvin/adventOfCode/blob/main/2020/day05/Story_Day05.md) |
+[Day 06](https://github.com/trashvin/adventOfCode/blob/main/2020/day06/Story_Day06.md) |
+[Day 07](https://github.com/trashvin/adventOfCode/blob/main/2020/day07/Story_Day07.md) |
+[Day 08](https://github.com/trashvin/adventOfCode/blob/main/2020/day08/Story_Day08.md) |
+[Day 09](https://github.com/trashvin/adventOfCode/blob/main/2020/day09/Story_Day09.md) |
+[Day 10](https://github.com/trashvin/adventOfCode/blob/main/2020/day10/Story_Day10.md) |
+[Day 11](https://github.com/trashvin/adventOfCode/blob/main/2020/day11/Story_Day11.md) |
+[Day 12](https://github.com/trashvin/adventOfCode/blob/main/2020/day12/Story_Day12.md) |
+[Day 13](https://github.com/trashvin/adventOfCode/blob/main/2020/day13/Story_Day13.md) |
+[Day 14](https://github.com/trashvin/adventOfCode/blob/main/2020/day14/Story_Day14.md) |
+[Day 15](https://github.com/trashvin/adventOfCode/blob/main/2020/day15/Story_Day15.md) |
+[Day 16](https://github.com/trashvin/adventOfCode/blob/main/2020/day16/Story_Day16.md) |
+[Day 17](https://github.com/trashvin/adventOfCode/blob/main/2020/day17/Story_Day17.md) |
+[Day 18](https://github.com/trashvin/adventOfCode/blob/main/2020/day18/Story_Day18.md) |
+[Day 19](https://github.com/trashvin/adventOfCode/blob/main/2020/day19/Story_Day19.md) |
+[Day 20](https://github.com/trashvin/adventOfCode/blob/main/2020/day20/Story_Day20.md) |
+[Day 21](https://github.com/trashvin/adventOfCode/blob/main/2020/day21/Story_Day21.md) |
 
 
 
@@ -51,16 +51,16 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | [Day 13: Shuttle Search ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day13)| - | - |
 | ✔ [Day 14: Docking Data ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day14)| 🌟 | 🌟 |
 | ✔ [Day 15: Rambunctious Recitation ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day15)| 🌟 | 🌟 |
-| [Day 16: Ticket Translation ]()| | |
+| [Day 16: Ticket Translation ](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day16)| 🌟 | |
 | [Day 17: Conway Cubes]()| | |
-| [Day 18: Operation Order]()| | |
+| [Day 18: Operation Order](https://github.com/trashvin/adventOfCode/tree/main/2020/csharp/day18)| 🌟 | |
 | [Day 19: Monster Messages]()| | |
 | [Day 20: Jurassic Jigsaw ]()| | |
 | [Day 21: Allergen Assessment ]()| | |
-| [Day 22: TBD]()| | |
-| [Day 23: TBD]()| | |
-| [Day 24: TBD]()| | |
-| [Day 25: TBD]()| | |
+| [Day 22: Crab Combat]()| | |
+| [Day 23: Crab Cups]()| | |
+| [Day 24: Lobby Layout]()| | |
+| [Day 25: Combo Breaker]()| | |
 
 
 

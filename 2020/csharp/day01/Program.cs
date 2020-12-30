@@ -5,9 +5,6 @@ title: report repair
 using System;
 using System.IO;
 using helper;
-{
-    
-}
 
 namespace day01
 {

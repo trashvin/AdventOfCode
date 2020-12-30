@@ -18,5 +18,25 @@ namespace helper
         {
             Console.WriteLine($"Part {part} result = {value}");
         }
+        public static List<T> ReadList<T>(string fileName)
+        {
+            List<T> list = new List<T>();
+
+            foreach (string line in File.ReadLines(fileName))
+            {
+                list.Add((T)Convert.ChangeType(line, typeof(T)));
+            }
+
+            return list;
+        }
+        public static void PrintList<T>(List<T> list)
+        {
+            Console.WriteLine("----------");
+            foreach (T line in list)
+            {
+                Console.WriteLine(line);
+            }
+            Console.WriteLine("----------");
+        }
     }
 }
