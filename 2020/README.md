@@ -8,27 +8,31 @@ To save your vacation, you need to get all fifty stars by December 25th.
 Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
 
 ## Daily Stories
-[Day 01](https://github.com/trashvin/adventOfCode/blob/main/2020/day01/Story_Day01.md) | 
-[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2020/day02/Story_Day02.md) |
-[Day 03](https://github.com/trashvin/adventOfCode/blob/main/2020/day03/Story_Day03.md) |
-[Day 04](https://github.com/trashvin/adventOfCode/blob/main/2020/dao04/Story_Day04.md) |
-[Day 05](https://github.com/trashvin/adventOfCode/blob/main/2020/day05/Story_Day05.md) |
-[Day 06](https://github.com/trashvin/adventOfCode/blob/main/2020/day06/Story_Day06.md) |
-[Day 07](https://github.com/trashvin/adventOfCode/blob/main/2020/day07/Story_Day07.md) |
-[Day 08](https://github.com/trashvin/adventOfCode/blob/main/2020/day08/Story_Day08.md) |
-[Day 09](https://github.com/trashvin/adventOfCode/blob/main/2020/day09/Story_Day09.md) |
-[Day 10](https://github.com/trashvin/adventOfCode/blob/main/2020/day10/Story_Day10.md) |
-[Day 11](https://github.com/trashvin/adventOfCode/blob/main/2020/day11/Story_Day11.md) |
-[Day 12](https://github.com/trashvin/adventOfCode/blob/main/2020/day12/Story_Day12.md) |
-[Day 13](https://github.com/trashvin/adventOfCode/blob/main/2020/day13/Story_Day13.md) |
-[Day 14](https://github.com/trashvin/adventOfCode/blob/main/2020/day14/Story_Day14.md) |
-[Day 15](https://github.com/trashvin/adventOfCode/blob/main/2020/day15/Story_Day15.md) |
-[Day 16](https://github.com/trashvin/adventOfCode/blob/main/2020/day16/Story_Day16.md) |
-[Day 17](https://github.com/trashvin/adventOfCode/blob/main/2020/day17/Story_Day17.md) |
-[Day 18](https://github.com/trashvin/adventOfCode/blob/main/2020/day18/Story_Day18.md) |
-[Day 19](https://github.com/trashvin/adventOfCode/blob/main/2020/day19/Story_Day19.md) |
-[Day 20](https://github.com/trashvin/adventOfCode/blob/main/2020/day20/Story_Day20.md) |
-[Day 21](https://github.com/trashvin/adventOfCode/blob/main/2020/day21/Story_Day21.md) |
+[Day 01](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day01/Story_Day01.md) | 
+[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day02/Story_Day02.md) |
+[Day 03](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day03/Story_Day03.md) |
+[Day 04](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day04/Story_Day04.md) |
+[Day 05](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day05/Story_Day05.md) |
+[Day 06](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day06/Story_Day06.md) |
+[Day 07](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day07/Story_Day07.md) |
+[Day 08](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day08/Story_Day08.md) |
+[Day 09](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day09/Story_Day09.md) |
+[Day 10](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day10/Story_Day10.md) |
+[Day 11](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day11/Story_Day11.md) |
+[Day 12](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day12/Story_Day12.md) |
+[Day 13](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day13/Story_Day13.md) |
+[Day 14](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day14/Story_Day14.md) |
+[Day 15](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day15/Story_Day15.md) |
+[Day 16](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day16/Story_Day16.md) |
+[Day 17](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day17/Story_Day17.md) |
+[Day 18](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day18/Story_Day18.md) |
+[Day 19](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day19/Story_Day19.md) |
+[Day 20](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day20/Story_Day20.md) |
+[Day 21](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day21/Story_Day21.md) |
+[Day 22](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day22/Story_Day22.md) |
+[Day 23](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day23/Story_Day23.md) |
+[Day 24](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day24/Story_Day24.md) |
+[Day 25](https://github.com/trashvin/adventOfCode/blob/main/2020/csharp/day25/Story_Day25.md) |
 
 
 
