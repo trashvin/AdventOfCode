@@ -66,6 +66,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | [Day 24: Lobby Layout]()| | |
 | [Day 25: Combo Breaker]()| | |
 
+## In Closing
 
+This adventure is now place on the backburner, I will be tring to solve some remaining puzzles if I got time. Couple of things I need to work on for the next adventure : recursion, regex, and review of algorithms. On to the next....
 
 layout based on the repo of @adriennetacke
