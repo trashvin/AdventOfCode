@@ -29,12 +29,22 @@ namespace helper
 
             return list;
         }
-        public static void PrintList<T>(List<T> list)
+        public static void PrintList<T>(List<T> list, bool oneLine = false)
         {
             Console.WriteLine("----------");
             foreach (T line in list)
             {
-                Console.WriteLine(line);
+                if(oneLine) Console.Write(line);
+                else Console.WriteLine(line);
+            }
+            Console.WriteLine("----------");
+        }
+        public static void PrintDict<T,U>(Dictionary<T,U> dict)
+        {
+            Console.WriteLine("----------");
+            foreach (KeyValuePair<T,U> kvp in dict)
+            {
+                Console.WriteLine($"{kvp.Key} : {kvp.Value}");
             }
             Console.WriteLine("----------");
         }
