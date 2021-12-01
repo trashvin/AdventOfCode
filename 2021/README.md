@@ -34,7 +34,7 @@
 
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
-|  [Day 1: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day01)| - | - |
+|  [Day 1: Sonar Sweep ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day01)| 🌟 | 🌟 |
 |  [Day 2: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day02)| - | - |
 |  [Day 3: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day03)| - | - |
 |  [Day 4: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day04)| - | - |
