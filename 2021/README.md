@@ -2,8 +2,8 @@
 
 
 ## Daily Stories
-[Day 01](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day01/readme.md) | 
-[Day 02](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day02/readme.md) |
+[Day 01](https://adventofcode.com/2021/day/1) | 
+[Day 02](https://adventofcode.com/2021/day/2) |
 [Day 03](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day03/readme.md) |
 [Day 04](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day04/readme.md) |
 [Day 05](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day05/readme.md) |
@@ -35,7 +35,7 @@
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
 |  [Day 1: Sonar Sweep ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day01)| 🌟 | 🌟 |
-|  [Day 2: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day02)| - | - |
+|  [Day 2: Dive!](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day02)| 🌟 | 🌟 |
 |  [Day 3: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day03)| - | - |
 |  [Day 4: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day04)| - | - |
 |  [Day 5: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day05)| - | - |
