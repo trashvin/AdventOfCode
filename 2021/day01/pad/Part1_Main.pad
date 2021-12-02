@@ -1,0 +1,16 @@
+# This is the day 01 part 1 solution. Copy the code in the main flow of your desktop flow in PAD.
+File.ReadTextAsList File: $'''Your\\Folder\\Here\\input.txt''' Encoding: File.TextFileEncoding.UTF8 Contents=> list
+SET prev TO 0
+SET total TO 0
+LOOP FOREACH item IN list
+    IF prev = 0 THEN
+        SET prev TO item
+    ELSE
+        IF item > prev THEN
+            Variables.IncreaseVariable Value: total IncrementValue: 1 IncreasedValue=> total
+        END
+        SET prev TO item
+    END
+END
+Display.ShowMessage Title: $'''AoC 2021''' Message: $'''Day 01 Part 1
+Answer = %total + 1%''' Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed

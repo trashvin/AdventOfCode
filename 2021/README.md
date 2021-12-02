@@ -1,5 +1,6 @@
 # Advent of Code 2021 Story
 
+Note : This year, I will try to implement some solutions using Power Automate Desktop. Just look at the "pad" folder to get the code that you can paste on your PAD #desktopFlowAsCode
 
 ## Daily Stories
 [Day 01](https://adventofcode.com/2021/day/1) | 

@@ -1,0 +1,19 @@
+# This is the day 02 part 1 solution. Copy the code in the main flow of your desktop flow in PAD.
+File.ReadTextAsList File: $'''Your\\Folder\\Here\\input.txt''' Encoding: File.TextFileEncoding.UTF8 Contents=> data
+SET x TO 0
+SET y TO 0
+LOOP FOREACH command IN data
+    Text.Split Text: command StandardDelimiter: Text.StandardDelimiter.Space DelimiterTimes: 1 Result=> commandList
+    SET direction TO commandList[0]
+    SET unit TO commandList[1]
+    IF direction = $'''up''' THEN
+        Variables.DecreaseVariable Value: y DecrementValue: unit DecreasedValue=> y
+    ELSE IF direction = $'''down''' THEN
+        Variables.IncreaseVariable Value: y IncrementValue: unit IncreasedValue=> y
+    ELSE
+        Variables.IncreaseVariable Value: x IncrementValue: unit IncreasedValue=> x
+    END
+END
+SET result TO x * y
+Display.ShowMessage Title: $'''AoC 2021''' Message: $'''Day 02 Part 1
+Result = %result%''' Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed
