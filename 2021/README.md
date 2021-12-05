@@ -6,8 +6,8 @@ Note : This year, I will try to implement some solutions using Power Automate De
 [Day 01](https://adventofcode.com/2021/day/1) | 
 [Day 02](https://adventofcode.com/2021/day/2) |
 [Day 03](https://adventofcode.com/2021/day/3) |
-[Day 04](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day04/readme.md) |
-[Day 05](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day05/readme.md) |
+[Day 04](https://adventofcode.com/2021/day/4) |
+[Day 05](https://adventofcode.com/2021/day/5) |
 [Day 06](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day06/readme.md) |
 [Day 07](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day07/readme.md) |
 [Day 08](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day08/readme.md) |
@@ -39,7 +39,7 @@ Note : This year, I will try to implement some solutions using Power Automate De
 | ✔ [Day 2: Dive!](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day02)| 🌟 | 🌟 |
 | ✔ [Day 3: Binary Diagnostic ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day03)| 🌟 | 🌟 |
 |  [Day 4: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day04)| - | - |
-|  [Day 5: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day05)| - | - |
+| ✔ [Day 5: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day05)| 🌟 | 🌟 |
 |  [Day 6: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day06)| - | - |
 |  [Day 7: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day07)| - | - |
 |  [Day 8: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day08)| - | - |
