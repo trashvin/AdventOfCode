@@ -38,9 +38,9 @@ Note : This year, I will try to implement some solutions using Power Automate De
 | ✔ [Day 1: Sonar Sweep ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day01)| 🌟 | 🌟 |
 | ✔ [Day 2: Dive!](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day02)| 🌟 | 🌟 |
 | ✔ [Day 3: Binary Diagnostic ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day03)| 🌟 | 🌟 |
-|  [Day 4: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day04)| - | - |
+|  [Day 4: Giant Squid ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day04)| - | - |
 | ✔ [Day 5: Hydrothermal Venture ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day05)| 🌟 | 🌟 |
-| ✔ [Day 6: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day06)| 🌟 | 🌟 |
+| ✔ [Day 6: Lanternfish ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day06)| 🌟 | 🌟 |
 |  [Day 7: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day07)| - | - |
 |  [Day 8: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day08)| - | - |
 |  [Day 9: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day09)| - | - |
