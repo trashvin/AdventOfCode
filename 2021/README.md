@@ -17,7 +17,7 @@ Note : This year, I will try to implement some solutions using Power Automate De
 [Day 04](https://adventofcode.com/2021/day/4) |
 [Day 05](https://adventofcode.com/2021/day/5) |
 [Day 06](https://adventofcode.com/2021/day/6) |
-[Day 07](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day07/readme.md) |
+[Day 07](https://adventofcode.com/2021/day/7) |
 [Day 08](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day08/readme.md) |
 [Day 09](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day09/readme.md) |
 [Day 10](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day10/readme.md) |
@@ -49,7 +49,7 @@ Note : This year, I will try to implement some solutions using Power Automate De
 |  [Day 4: Giant Squid ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day04)| - | - |
 | ✔ [Day 5: Hydrothermal Venture ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day05)| 🌟 | 🌟 |
 | ✔ [Day 6: Lanternfish ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day06)| 🌟 | 🌟 |
-|  [Day 7: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day07)| - | - |
+| ✔ [Day 7: The Treachery of Whales ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day07)| 🌟 | 🌟 |
 |  [Day 8: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day08)| - | - |
 |  [Day 9: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day09)| - | - |
 |  [Day 10: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day10)| - | - |
