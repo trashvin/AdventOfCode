@@ -61,9 +61,6 @@ def do_part2(file, days_to_propagate):
 
 
 # main
-
-file = "input.txt"
-
 test = ("test.txt", 80, 256)
 real = ("input.txt", 80, 256)
 
