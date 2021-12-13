@@ -19,11 +19,11 @@ Note : This year, I will try to implement some solutions using Power Automate De
 [Day 06](https://adventofcode.com/2021/day/6) |
 [Day 07](https://adventofcode.com/2021/day/7) |
 [Day 08](https://adventofcode.com/2021/day/8) |
-[Day 09](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day09/readme.md) |
-[Day 10](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day10/readme.md) |
-[Day 11](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day11/readme.md) |
-[Day 12](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day12/readme.md) |
-[Day 13](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day13/readme.md) |
+[Day 09](https://adventofcode.com/2021/day/9) |
+[Day 10](https://adventofcode.com/2021/day/10) |
+[Day 11](https://adventofcode.com/2021/day/11) |
+[Day 12](https://adventofcode.com/2021/day/12) |
+[Day 13](https://adventofcode.com/2021/day/13) |
 [Day 14](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day14/readme.md) |
 [Day 15](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day15/readme.md) |
 [Day 16](https://github.com/trashvin/adventOfCode/blob/main/2021/python/day16/readme.md) |
@@ -51,11 +51,11 @@ Note : This year, I will try to implement some solutions using Power Automate De
 | ✔ [Day 6: Lanternfish ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day06)| 🌟 | 🌟 |
 | ✔ [Day 7: The Treachery of Whales ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day07)| 🌟 | 🌟 |
 | ✔ [Day 8: Seven Segment Search ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day08)| 🌟 | 🌟 |
-|  [Day 9: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day09)| - | - |
-|  [Day 10: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day10)| - | - |
-|  [Day 11: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day11)| - | - |
-|  [Day 12: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day12)| - | - |
-|  [Day 13: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day13)| - | - |
+| ✔ [Day 9: Smoke Basin ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day09)| 🌟 | - |
+| ✔ [Day 10: Syntax Scoring ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day10)| 🌟 | 🌟 |
+|  [Day 11: Dumbo Octopus ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day11)| - | - |
+|  [Day 12: Passage Pathing ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day12)| - | - |
+|  [Day 13: Transparent Origami ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day13)| - | - |
 |  [Day 14: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day14)| - | - |
 |  [Day 15: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day15)| - | - |
 |  [Day 16: ](https://github.com/trashvin/adventOfCode/tree/main/2021/python/day16)| - | - |
