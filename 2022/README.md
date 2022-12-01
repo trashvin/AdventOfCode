@@ -1,6 +1,10 @@
 # Advent of Code 2022 Story
 
+Santa's reindeer typically eat regular reindeer food, but they need a lot of magical energy to deliver presents on Christmas. For that, their favorite snack is a special type of star fruit that only grows deep in the jungle. The Elves have brought you on their annual expedition to the grove where the fruit grows.
 
+To supply enough magical energy, the expedition needs to retrieve a minimum of fifty stars by December 25th. Although the Elves assure you that the grove has plenty of fruit, you decide to grab any fruit you see along the way, just in case.
+
+Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
 
 ## Daily Stories
 [Day 01](https://adventofcode.com/2022/day/1) | 
@@ -16,25 +20,25 @@
 [Day 11](https://adventofcode.com/2022/day/11) |
 [Day 12](https://adventofcode.com/2022/day/12) |
 [Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
-[Day 13](https://adventofcode.com/2022/day/13) |
+[Day 13](https://adventofcode.com/2022/day/14) |
+[Day 13](https://adventofcode.com/2022/day/15) |
+[Day 13](https://adventofcode.com/2022/day/16) |
+[Day 13](https://adventofcode.com/2022/day/17) |
+[Day 13](https://adventofcode.com/2022/day/18) |
+[Day 13](https://adventofcode.com/2022/day/19) |
+[Day 13](https://adventofcode.com/2022/day/20) |
+[Day 13](https://adventofcode.com/2022/day/21) |
+[Day 13](https://adventofcode.com/2022/day/22) |
+[Day 13](https://adventofcode.com/2022/day/23) |
+[Day 13](https://adventofcode.com/2022/day/24) |
+[Day 13](https://adventofcode.com/2022/day/25) |
 
 
 ## Progress
 
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
-|  [Day 1: ]()| | |
+| ✔ [Day 1: Calorie Counting ](https://github.com/trashvin/AdventOfCode/tree/main/2022/day01)| 🌟 | 🌟|
 |  [Day 2: ]()| | |
 |  [Day 3: ]()| | |
 |  [Day 4: ]()| | |
