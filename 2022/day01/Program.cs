@@ -7,10 +7,8 @@ Dictionary<int,int> caloriesPerElf = new Dictionary<int, int>();
 
 int elfNumber = 0;
 int tempTotalCal = 0;
-int highestElf = 0;
-int highestCal = 0;
 
-//part 1
+//start of part 1
 
 foreach(var calorie in input)
 {
@@ -21,25 +19,32 @@ foreach(var calorie in input)
     else 
     {
         caloriesPerElf.Add(elfNumber, tempTotalCal);
-
-        if(tempTotalCal > highestCal)
-        {
-            highestCal = tempTotalCal;
-            highestElf = elfNumber;
-        }
-
         elfNumber++;
         tempTotalCal = 0;
     }
 }
 
-Helper.WriteResult(1, highestCal);
-int totalCalOfThreeElf = 0;
+var orderedCalElfDictionary = caloriesPerElf.OrderByDescending(key => key.Value);
+
+Helper.WriteResult(1, orderedCalElfDictionary.Take(1).First().Value);
+
 // start of part 2
-foreach(KeyValuePair<int,int> elf in caloriesPerElf.OrderByDescending(key=>key.Value).Take(3))
+
+int totalCalOfThreeElf = 0;
+
+foreach(KeyValuePair<int,int> elf in orderedCalElfDictionary.Take(3))
 {
     Console.WriteLine($"{elf.Key} : {elf.Value}");
     totalCalOfThreeElf += elf.Value;
 }
 
+//foreach(KeyValuePair<int,int> elf in caloriesPerElf.OrderByDescending(key=>key.Value).Take(3))
+//{
+//    Console.WriteLine($"{elf.Key} : {elf.Value}");
+//    totalCalOfThreeElf += elf.Value;
+//}
+
 Helper.WriteResult(2,totalCalOfThreeElf);
+
+Console.ReadLine();
+
