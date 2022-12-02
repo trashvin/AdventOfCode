@@ -38,12 +38,6 @@ foreach(KeyValuePair<int,int> elf in orderedCalElfDictionary.Take(3))
     totalCalOfThreeElf += elf.Value;
 }
 
-//foreach(KeyValuePair<int,int> elf in caloriesPerElf.OrderByDescending(key=>key.Value).Take(3))
-//{
-//    Console.WriteLine($"{elf.Key} : {elf.Value}");
-//    totalCalOfThreeElf += elf.Value;
-//}
-
 Helper.WriteResult(2,totalCalOfThreeElf);
 
 Console.ReadLine();
