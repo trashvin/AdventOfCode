@@ -17,9 +17,11 @@ Advent of Code is an Advent calendar of small programming puzzles for a variety 
 
 You don't need a computer science background to participate - just a little programming knowledge and some problem solving skills will get you pretty far. Nor do you need a fancy computer; every problem has a solution that completes in at most 15 seconds on ten-year-old hardware.
 
+New this 2022: I am  incuding AoCLearning section where I will place all snippets that had helped me this year.
+
 ## My AoC Adventures 
 
 - [2020 Tropical Island Christmas Vacation](https://github.com/trashvin/AdventOfCode/tree/main/2020)
 - [2021 Underwater Adventure](https://github.com/trashvin/AdventOfCode/tree/main/2021)
-- [2022 Magical Energy](https://github.com/trashvin/AdventOfCode/tree/main/2022)
+- [2022 Magical Adventures with Elves](https://github.com/trashvin/AdventOfCode/tree/main/2022)
 
