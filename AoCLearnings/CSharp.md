@@ -9,3 +9,9 @@ var orderedCalElfDictionary = caloriesPerElf.OrderByDescending(key => key.Value)
 ```
 orderedCalElfDictionary.Take(3)
 ```
+
+## finding index of item in an array
+```
+string[] opponentMoves = { "A", "B", "C" };
+int pos1 = Array.FindIndex(opponentMoves, item => item == moves[0]);
+```
