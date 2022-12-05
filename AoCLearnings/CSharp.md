@@ -15,3 +15,14 @@ orderedCalElfDictionary.Take(3)
 string[] opponentMoves = { "A", "B", "C" };
 int pos1 = Array.FindIndex(opponentMoves, item => item == moves[0]);
 ```
+
+## intersections between arrays
+```
+var inter = lowerHalf.Intersect(upperHalf);
+
+//to check if there is a valid intersection
+if (inter.Count() > 0)
+{
+	total += GetPriority(inter.First());
+}
+```
