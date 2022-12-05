@@ -45,4 +45,10 @@ public static class Helper
         }
         Console.WriteLine("----------");
     }
+
+    public static void Print(int part, string value)
+    {
+        Console.WriteLine($"Log {part} result = {value}");
+    }
+
 }
