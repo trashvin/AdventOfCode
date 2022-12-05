@@ -40,7 +40,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 |---|:---:|:---:|
 | ✔ [Day 1: Calorie Counting ](https://github.com/trashvin/AdventOfCode/tree/main/2022/day01)| 🌟 | 🌟|
 | ✔ [Day 2: Rock Paper Scissors ](https://github.com/trashvin/AdventOfCode/tree/main/2022/day02)|🌟 | 🌟|
-|  [Day 3: ]()| | |
+| ✔ [Day 3: Rucksack Reorganization](https://github.com/trashvin/AdventOfCode/tree/main/2022/day03)|🌟 | 🌟|
 |  [Day 4: ]()| | |
 |  [Day 5: ]()| | |
 |  [Day 6: ]()| | |
