@@ -6,6 +6,11 @@ public static class Helper
     {
         Console.WriteLine($"Part {part} result = {value}");
     }
+    public static void WriteResult(int part, string value)
+    {
+        Console.WriteLine($"Part {part} result = {value}");
+    }
+
     public static void WriteResult(int part, int value)
     {
         Console.WriteLine($"Part {part} result = {value}");
