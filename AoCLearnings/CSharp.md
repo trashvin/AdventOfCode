@@ -1,22 +1,28 @@
 # CSharp Learnings
 
-## sorting dict by value
+1. [sorting dict by value](#1)
+2. [take the first three in the dict](#2)
+3. [finding index of item in an array](#3)
+4. [intersections between arrays](#4)
+5. [tuple example](#5)
+
+## sorting dict by value <a name="1"></a>
 ```
 var orderedCalElfDictionary = caloriesPerElf.OrderByDescending(key => key.Value);
 ```
 
-## take the first three in the dict
+## take the first three in the dict  <a name="2"></a>
 ```
 orderedCalElfDictionary.Take(3)
 ```
 
-## finding index of item in an array
+## finding index of item in an array <a name="3"></a>
 ```
 string[] opponentMoves = { "A", "B", "C" };
 int pos1 = Array.FindIndex(opponentMoves, item => item == moves[0]);
 ```
 
-## intersections between arrays
+## intersections between arrays  <a name="4"></a>
 ```
 var inter = lowerHalf.Intersect(upperHalf);
 
@@ -27,7 +33,7 @@ if (inter.Count() > 0)
 }
 ```
 
-## tuples example
+## tuples example  <a name="5"></a>
 ```
 // sample method
 Tuple<int, int, int> GetDirection(string data)
