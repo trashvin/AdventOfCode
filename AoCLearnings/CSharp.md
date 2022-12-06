@@ -26,3 +26,17 @@ if (inter.Count() > 0)
 	total += GetPriority(inter.First());
 }
 ```
+
+## tuples example
+```
+// sample method
+Tuple<int, int, int> GetDirection(string data)
+{
+    data = data.Replace("move", "").Replace("from", "").Replace("to", "");
+    string[] myDir = data.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+    return Tuple.Create(Int32.Parse(myDir[0]), Int32.Parse(myDir[1])-1, Int32.Parse(myDir[2])-1);
+}
+
+//call
+Tuple<int, int, int> dir = GetDirection(inst);
+```
