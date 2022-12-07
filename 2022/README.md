@@ -42,8 +42,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 2: Rock Paper Scissors ](https://github.com/trashvin/AdventOfCode/tree/main/2022/day02)|🌟 | 🌟|
 | ✔ [Day 3: Rucksack Reorganization](https://github.com/trashvin/AdventOfCode/tree/main/2022/day03)|🌟 | 🌟|
 | ✔ [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4)|🌟 | 🌟|
-| ✔ [Day 5: Supply Stacks](https://adventofcode.com/2022/day/4)|🌟 | 🌟|
-|  [Day 6: ]()| | |
+| ✔ [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5)|🌟 | 🌟|
+| ✔ [Day 6: Tuning Trouble]((https://adventofcode.com/2022/day/6)|🌟 | 🌟|
 |  [Day 7:]()| | |
 |  [Day 8: ]()| | |
 |  [Day 9: ]()| | |
