@@ -23,5 +23,5 @@ New this 2022: I am  incuding AoCLearning section where I will place all snippet
 
 - [2020 Tropical Island Christmas Vacation](https://github.com/trashvin/AdventOfCode/tree/main/2020)
 - [2021 Underwater Adventure](https://github.com/trashvin/AdventOfCode/tree/main/2021)
-- [2022 Magical Adventures with Elves](https://github.com/trashvin/AdventOfCode/tree/main/2022)
+- [2022 Magical Expedition with Elves](https://github.com/trashvin/AdventOfCode/tree/main/2022)
 

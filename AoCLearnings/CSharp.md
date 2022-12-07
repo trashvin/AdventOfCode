@@ -5,6 +5,7 @@
 3. [finding index of item in an array](#3)
 4. [intersections between arrays](#4)
 5. [tuple example](#5)
+6. [processing a list using lambda](#6)
 
 ## sorting dict by value <a name="1"></a>
 ```
@@ -45,4 +46,41 @@ Tuple<int, int, int> GetDirection(string data)
 
 //call
 Tuple<int, int, int> dir = GetDirection(inst);
+```
+
+## processing a list using lambda  <a name="6"></a>
+```
+// sample input from input.txt
+// 2-4,6-8
+// 2-3,4-5
+
+// projected output
+// 2 3 4 : 6 7 8
+// 2 3 : 4 5
+
+// needed helper to expand a range to list
+List<int> Expand(string range)
+{
+    string[] ranges = range.Split('-');
+
+    List<int> newRange = new List<int>();
+    for (int count = Int32.Parse(ranges[0]); count <= Int32.Parse(ranges[1]); count++)
+    {
+        newRange.Add(count);
+    }
+    return newRange;
+}
+
+// the lambda example
+List<string> input = Helper.ReadList<string>("input.txt");
+
+var result = input
+             .Select(inp => new ValueTuple<List<int>, List<int>>(Expand(inp.Split(',')[0]), Expand(inp.Split(',')[0])))
+			 .ToList();
+
+foreach(var t in result)
+{
+    // use String.Join to expand print
+    Helper.Print(0, String.Join(" ",t.Item1) + " : " + String.Join(" ", t.Item2));
+}
 ```
