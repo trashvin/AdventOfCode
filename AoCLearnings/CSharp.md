@@ -6,6 +6,8 @@
 4. [intersections between arrays](#4)
 5. [tuple example](#5)
 6. [processing a list using lambda](#6)
+7. [analyze a list based on a condition using lambda](#7)
+8. [using TakeWhile in C#](#8)
 
 ## sorting dict by value <a name="1"></a>
 ```
@@ -83,4 +85,21 @@ foreach(var t in result)
     // use String.Join to expand print
     Helper.Print(0, String.Join(" ",t.Item1) + " : " + String.Join(" ", t.Item2));
 }
+```
+
+## analyze a list based on a condition using lambda <a name="7"></a>
+```
+// check if all elements in the list are lower than current
+current = 7;
+var leftResult = list.Take(new Range(0, 20))
+        .Where(val => val> current)
+        .Count() == 0;
+```
+
+## using TakeWhile in C# <a name="8"></a>
+```
+int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1 };
+
+// take only those less than 2
+var result = numbers.TakeWhile(n => n < 2);
 ```
