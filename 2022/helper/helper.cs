@@ -31,7 +31,7 @@ public static class Helper
         Console.WriteLine("----------");
         foreach (T line in list)
         {
-            if (oneLine) Console.Write(line);
+            if (oneLine) Console.Write(line + " , ");
             else Console.WriteLine(line);
         }
         Console.WriteLine("----------");
