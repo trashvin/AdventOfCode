@@ -19,7 +19,7 @@ headPath.Add(headLoc["x"] + ":" + headLoc["y"] + " > ");
 
 List<string> tailPath = new List<string>();
 tailPath.Add(tailLoc["x"] + ":" + tailLoc["y"] + " > ");
-var prevDir = String.Empty;
+
 
 foreach (var movement in movements)
 {
@@ -69,3 +69,106 @@ foreach (var movement in movements)
 }
 
 Helper.WriteResult(1, tailPath.Distinct().Count());
+
+
+// Part 2
+
+List<int> xHeads = new List<int>()
+{
+    1,1,1,1,1,1,1,1,1,1
+};
+List<int> yHeads = new List<int>()
+{
+    1,1,1,1,1,1,1,1,1,1
+};
+//List<int> xTails = new List<int>()
+//{
+//    1,1,1,1,1,1,1,1,1,1
+//};
+//List<int> yTails = new List<int>()
+//{
+//    1,1,1,1,1,1,1,1,1,1
+//};
+
+headPath.Clear();
+tailPath.Clear();
+
+headPath = xHeads
+    .Select(loc => "1:1").ToList();
+
+foreach (var movement in movements)
+{
+    var dir = movement.Item1;
+    var steps = movement.Item2;
+
+    for (int step = 0; step < steps; step++)
+    {
+        if (dir == "R") xHeads[0] += 1;
+        else if (dir == "L") xHeads[0] -= 1;
+        else if (dir == "U") yHeads[0] += 1;
+        else yHeads[0] -= 1;
+
+        headPath.Add(xHeads[0] + ":" + yHeads[0]);
+        for (int rope = 1; rope< 10; rope++)
+        {
+            //int xhDisplacement = xHeads[rope-1]- xHeads[rope];
+            //int yhDisplacement = yHeads[rope-1]- yHeads[rope];
+
+            //if (xhDisplacement > 1) xHeads[rope] += 1;
+            //else if (xhDisplacement < -1) xHeads[rope] -= 1;
+
+            //if (yhDisplacement > 1) yHeads[rope] += 1;
+            //else if(yhDisplacement < -1) yHeads[rope] -= 1;
+
+            int xDisplacement = xHeads[rope - 1] - xHeads[rope];
+            int yDisplacement = yHeads[rope- 1] - yHeads[rope];
+
+            if (xDisplacement > 1)
+            {
+                xHeads[rope] += 1;
+                if (yDisplacement > 0) yHeads[rope] += 1;
+                else if (yDisplacement < 0) yHeads[rope] -= 1;
+            }
+            else if (xDisplacement < -1)
+            {
+                xHeads[rope] -= 1;
+
+                if (yDisplacement > 0) yHeads[rope] += 1;
+                else if (yDisplacement < 0) yHeads[rope] -= 1;
+                
+            }
+            else if (yDisplacement > 1)
+            {
+                yHeads[rope] += 1;
+                if (xDisplacement > 0) xHeads[rope] += 1;
+                else if (xDisplacement < 0) xHeads[rope] -= 1;
+            }
+            else if (yDisplacement < -1)
+            {
+                yHeads[rope]-= 1;
+                if (xDisplacement > 0) xHeads[rope] += 1;
+                else if (xDisplacement < 0) xHeads[rope] -= 1;
+            }
+
+
+            headPath.Add(xHeads[rope] + ":" + yHeads[rope]);
+            tailPath.Add(xHeads[9] + ":" + yHeads[9]);
+        }
+
+        
+    }
+
+
+}
+
+Helper.WriteResult(2, tailPath.Distinct().Count().ToString());  
+
+
+
+
+
+
+
+
+
+
