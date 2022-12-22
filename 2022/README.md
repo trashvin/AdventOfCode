@@ -51,15 +51,15 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 |  [Day 11: Monkey in the Middle](https://adventofcode.com/2022/day/11)| | |
 |  [Day 12: Hill Climbing Algorith](https://adventofcode.com/2022/day/12)| | |
 |  [Day 13: Distress Signal](https://adventofcode.com/2022/day/13)| | |
-|  [Day 14: Regolith Reservoir](https://adventofcode.com/2022/day/14)| | |
+| ✔ [Day 14: Regolith Reservoir](https://adventofcode.com/2022/day/14)| 🌟 |🌟 |
 |  [Day 15: Beacon Exclusion Zone](https://adventofcode.com/2022/day/15)| | |
 |  [Day 16: Proboscidea Volcanium](https://adventofcode.com/2022/day/16)| | |
 |  [Day 17: Pyroclastic Flow](https://adventofcode.com/2022/day/17)|  |  |
 |  [Day 18: Boiling Boulders](https://adventofcode.com/2022/day/18)| | |
 |  [Day 19: Not Enough Minerals](https://adventofcode.com/2022/day/19)| | |
-|  [Day 20: ]()| | |
-|  [Day 21: ]()| | |
-|  [Day 22: ]()| | |
+|  [Day 20: Grove Positioning System]((https://adventofcode.com/2022/day/20)| | |
+|  [Day 21: Monkey Math](https://adventofcode.com/2022/day/21)| | |
+|  [Day 22: Monkey Map](https://adventofcode.com/2022/day/22)| | |
 |  [Day 23: ]()| | |
 |  [Day 24: ]()| | |
 |  [Day 25: ]()| | |
